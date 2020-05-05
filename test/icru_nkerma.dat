@@ -5,19 +5,19 @@
 #
 # kerma coefficient values are in fGy m**2, energies in MeV.
 #
-@header_name _ICRU_KERMA
+@header_name _ICRU_NKERMA
 @max_line_length 120
 @digits_after_dot 2
 @indent_spaces 4
 #
-@1 static const float energy
-@2 static const float f_a150
-@3 static const float f_air
-@4 static const float f_bone
-@5 static const float f_muscle
-@6 static const float f_te_meth
-@7 static const float f_te_prop
-@8 static const float f_water
+@1 static float const _neutron_energy
+@2 static float const _f_a150
+@3 static float const _f_air
+@4 static float const _f_bone
+@5 static float const _f_muscle
+@6 static float const _f_te_meth
+@7 static float const _f_te_prop
+@8 static float const _f_water
 #
 # data will start at the first row without # or @ prefix.
 #
